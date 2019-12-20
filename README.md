@@ -33,6 +33,14 @@ Pastikan koneksi internet aktif. Agar peta bisa terlihat.
 
 
 
+Untuk android, source code ada di :
+
+https://github.com/hajirodeon/sisfokol_android_presensigps
+
+
+
+
+
 
 
 

@@ -1,0 +1,248 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300italic,300,100,100italic,400italic,700,700italic,900,900italic);
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.wraper {
+    width: 470px;
+    margin: 50px auto;
+}
+
+.wraper:before,
+.wraper:after {
+    display: table;
+    content: " ";
+}
+
+.wraper:after {
+    clear: both;
+}
+
+
+/* Skills Style 5 */
+
+.skillst5 .skillbar {
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 35px;
+    margin-bottom: 28px;
+    position: relative;
+    width: 100%;
+}
+
+.skillst5 .count-bar {
+    width: 100%;
+    height: 100%;
+    width: 0px;
+    position: relative;
+}
+
+.skillst5 .count-bar.color-1 {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDM5NCAxMiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSIgeTE9IjUwJSIgeDI9IjEwMCUiIHkyPSI1MCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMjM5MTkxIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxOGIxYjAiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMzkxOTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjM5NCIgaGVpZ2h0PSIxMiIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+    background-image: -webkit-linear-gradient(left, #239191 0%, #18b1b0 49.88%, #239191 100%);
+    background-image: linear-gradient(left, #239191 0%, #18b1b0 49.88%, #239191 100%);
+}
+
+.skillst5 .count-bar.color-2 {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDM0MCAxMiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSIgeTE9IjUwJSIgeDI9IjEwMCUiIHkyPSI1MCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzM0OTVkIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM0YTYzN2MiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMzQ5NWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjM0MCIgaGVpZ2h0PSIxMiIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+    background-image: -webkit-linear-gradient(left, #33495d 0%, #4a637c 49.88%, #33495d 100%);
+    background-image: linear-gradient(left, #33495d 0%, #4a637c 49.88%, #33495d 100%);
+}
+
+.skillst5 .count-bar.color-3 {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDE5MiAxMiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSIgeTE9IjUwJSIgeDI9IjEwMCUiIHkyPSI1MCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZjFjMzBmIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmYmQ5NTQiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMWMzMGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjE5MiIgaGVpZ2h0PSIxMiIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+    background-image: -webkit-linear-gradient(left, #f1c30f 0%, #fbd954 49.88%, #f1c30f 100%);
+    background-image: linear-gradient(left, #f1c30f 0%, #fbd954 49.88%, #f1c30f 100%);
+}
+
+.skillst5 .count-bar.color-4 {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI3OSAxMiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSIgeTE9IjUwJSIgeDI9IjEwMCUiIHkyPSI1MCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMjk3ZmI5IiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxNDllZjkiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyOTdmYjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjI3OSIgaGVpZ2h0PSIxMiIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+    background-image: -webkit-linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #297fb9 100%);
+    background-image: linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #297fb9 100%);
+}
+
+.skillst5 .count-bar.color-5 {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI2MiAxMiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSIgeTE9IjUwJSIgeDI9IjEwMCUiIHkyPSI1MCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmY1YjAxIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmOTY2MjAiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkOTRmMGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjI2MiIgaGVpZ2h0PSIxMiIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+    background-image: -webkit-linear-gradient(left, #ff5b01 0%, #f96620 49.88%, #d94f0d 100%);
+    background-image: linear-gradient(left, #ff5b01 0%, #f96620 49.88%, #d94f0d 100%);
+}
+
+.skillst5 .title {
+    color: #fff;
+    left: 0;
+    letter-spacing: 2px;
+    line-height: 25px;
+    padding-left: 10px;
+    position: absolute;
+    text-transform: capitalize;
+    top: 4px;
+    z-index: 9;
+}
+
+.skillst5 .count-bar .count {
+    color: #fff;
+    height: 100%;
+    line-height: 18px;
+    padding-top: 8px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 40px;
+}
+
+.skillst5 .count-bar .count span {
+    position: relative;
+    display: block;
+}
+
+
+/*.skillst5 .count-bar .count span:after {
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    top: 18px;
+    content: "";
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}*/
+
+.skillst5 .count-bar.color-1 .count {
+    background-color: #239191;
+}
+
+.skillst5 .count-bar.color-1 .count span:after {
+    border-top: 4px solid #239191;
+}
+
+.skillst5 .count-bar.color-2 .count {
+    background-color: #34495e;
+}
+
+.skillst5 .count-bar.color-2 .count span:after {
+    border-top: 4px solid #34495e;
+}
+
+.skillst5 .count-bar.color-3 .count {
+    background-color: #f1c40f;
+}
+
+.skillst5 .count-bar.color-3 .count span:after {
+    border-top: 4px solid #f1c40f;
+}
+
+.skillst5 .count-bar.color-4 .count {
+    background-color: #2980b9;
+}
+
+.skillst5 .count-bar.color-4 .count span:after {
+    border-top: 4px solid #2980b9;
+}
+
+.skillst5 .count-bar.color-5 .count {
+    background-color: #da500e;
+}
+
+.skillst5 .count-bar.color-5 .count span:after {
+    border-top: 4px solid #da500e;
+}
+
+
+/*Coustom Media Query Css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {}

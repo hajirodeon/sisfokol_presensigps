@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>{judul}</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{sumber}/template/img/core-img/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{sumber}/template/style.css">
+
+
+
+
+<!-- jQuery 3 -->
+<script src="{sumber}/template/adminlte/bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="{sumber}/template/adminlte/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- AdminLTE App -->
+<script src="{sumber}/template/adminlte/dist/js/adminlte.min.js"></script>
+
+
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="{sumber}/template/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
+<!-- Bootstrap core CSS -->
+<link href="{sumber}/template/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css" rel="stylesheet">
+
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#loading').ajaxStart(function(){
+			$(this).show();
+		}).ajaxStop(function(){
+			$(this).hide();
+		});
+
+
+
+
+});
+
+</script>
+
+
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Navbar Area -->
+        <div class="mag-main-menu" id="sticker">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="magNav">
+
+                    <!-- Nav brand -->
+                    <a href="{sumber}" class="nav-brand">BARANGMASUK</a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Nav Content -->
+                    <div class="nav-content d-flex align-items-center">
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li class="active"><a href="{sumber}/adm/index.php">BERANDA</a></li>
+                                    <li><a href="#">SETTING</a>
+                                        <ul class="dropdown">
+                                        	<li><a href="{sumber}/adm/s/profil.php" title="Edit Profil">Edit Profil</a></li>
+                                        	<li><a href="{sumber}/adm/s/pass.php" title="Ganti Password">Ganti Password</a></li>
+                                        </ul>
+                                    </li>
+                                    
+
+                                    <li><a href="#">BARANG</a>
+                                        <ul class="dropdown">
+		                                    <LI>
+											<a href="{sumber}/adm/d/kategori.php" title="Kategori Barang">Kategori Barang</a>
+											</LI>
+											<LI>
+											<a href="{sumber}/adm/d/satuan.php" title="Satuan Barang">Satuan Barang</a>
+											</LI>
+											<LI>
+											<a href="{sumber}/adm/d/brg.php" title="Daftar Barang">Daftar Barang</a>
+											</LI>
+										</ul>
+									</li>
+
+
+                                    <li><a href="{sumber}/logout.php">KELUAR</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+
+		<br>
+		<br>
+		<br>
+    	
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+
+						<h3>{judul}</h3>
+
+                	
+                    <div class="single-video-area bg-white mb-30 box-shadow">
+
+                        <!-- Video Meta Data -->
+                        <div class="video-meta-data d-flex align-items-center justify-content-between">
+
+						
+						{isi}
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    
+    
+    
+    
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <!-- Copywrite Area -->
+        <div class="copywrite-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Copywrite Text -->
+                    <div class="col-12 col-sm-12">
+                        <p class="copywrite-text">{versi}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="{sumber}/template/js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="{sumber}/template/js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="{sumber}/template/js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="{sumber}/template/js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="{sumber}/template/js/active.js"></script>
+    
+    
+    
+    
+
+<!-- Bootstrap core JavaScript -->
+<script src="{sumber}/template/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
+<!-- Bootstrap core CSS -->
+<link href="{sumber}/template/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css" rel="stylesheet">
+
+
+
+</body>
+
+</html>
